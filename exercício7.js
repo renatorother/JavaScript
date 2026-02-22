@@ -1,9 +1,9 @@
-let estudantes = ['Renato','Julia','Miguel','Naná','Marcos'];
-// console.log(estudantes);
-// console.table(estudantes);
+let idades = {
+    anaAge: 28,
+    carlAge: 32,
+    johnAge: 42,
+}
 
-console.log(estudantes[0])
-console.log(estudantes[4])
-//ou
-console.log(estudantes[estudantes.length - 1])
-console.log(estudantes[estudantes.length, 0])
+let media = (idades.anaAge + idades.carlAge + idades.johnAge) / 3;
+
+console.log(media);

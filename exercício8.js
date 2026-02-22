@@ -1,8 +1,10 @@
-let estudantes = ['Renato','Julia','Miguel','Naná','Marcos'];
-let lastName = estudantes.pop();
-console.log(lastName);
+let anna = 2;
+let carl = 3;
+let john = 5;
 
-let firstName = estudantes.shift();
-console.log(firstName);
+let total_macas = anna + carl + john;
+let valor_maca = 1.75;
 
-console.log(estudantes);
+let valor_total = total_macas * valor_maca;
+console.log(valor_total);
+

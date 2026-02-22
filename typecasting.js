@@ -1,4 +1,4 @@
-//converter number para string
+/* //converter number para string
 let num1 = 100;
 console.log(num1.toString());
 //ou
@@ -66,3 +66,4 @@ console.log(Boolean(valor)) // false
 //converter uma string com espaço para booleano
 let valor = ' '
 console.log(Boolean(valor)) // true
+ */

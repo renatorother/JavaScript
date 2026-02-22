@@ -1,8 +1,17 @@
-let students = ['Renato','Julia','Miguel','Naná','Marcos'];
+let firstNames = {
+    name1: 'Ana',
+    name2: 'Carl',
+    name3: 'John',    
+};
 
-students.push('Anthony','Michael','Thomas','Joseph')
-students.unshift('Kevin')
+let lastNames = 'Smith';
 
-console.table(students);
 
+let fullNames = [
+    firstNames.name1 + ' ' + lastNames,
+    firstNames.name2 + ' ' + lastNames,
+    firstNames.name3 + ' ' + lastNames,
+];
+
+console.table(fullNames);
 
