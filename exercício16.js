@@ -1,4 +1,4 @@
-let myName = 'John';
+let myName = 'Bill';
 
 switch (myName) {
     case 'Ann':
