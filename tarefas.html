@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Tarefas</title>
+    <title>Título da Página</title>
+
+    <link rel="stylesheet" href="mobile_first.css"> 
+    <link rel="stylesheet" href="media_query.css">
+
+    <script src="jsfile.js">
+       window.alert('Hello World!')
+    </script>
 </head>
-<body>
+
+<body>    
     <header>
-        <h1>Lista de Tarefas</h1>
+        <h1></h1>        
     </header>
 
-    <form action="">
-        <label for="tarefa">Adicionar tarefa: </label>
-        <input type="text" id="tarefa" name="tarefa">
-        <button type="button" onclick="adicioarTarefa()">Adicionar Tarefa</button>
-    </form>
+    <menu>
+        <ul style="display: flex; align-items: center; justify-content: center;">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+        </ul>
+    </menu>
 
-    <ul id="Lista de Tarefas">
+    <main>
+        <div>
+            <h2></h2>
+            <p></p>
+            <aside></aside>
+        </div>
+    </main>
 
-    </ul>
+    <footer>
+        <p></p>
+    </footer>
 
-    <script>
-        function adicioarTarefa(){
-            let campoTarefa = document.getElementById('tarefa');
-            let listaDeTarefas = document.getElementById('lista-de-tarefas');
-            let novaTarefa = document.createElement('li');
-            novaTarefa.textContent = campoTarefa.value;
-            listaDeTarefas.appendChild(novaTarefa);
-            campoTarefa.value = '';
-        }
-    </script>
 </body>
 </html>
