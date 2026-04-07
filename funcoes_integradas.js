@@ -31,3 +31,12 @@ console.log(myString.toLowerCase()); // exibe tudo em minúscula
 
 // concat
 console.log(myString.concat('and Python!')); // exibe 'This is Javascript and Python!
+
+// trim
+const myString2 = '   This is Javascript!    ';
+console.log(myString2.trim()); // exibe 'This is JavaScript!' (retira os espaços)
+
+// split
+console.log(myString.split()); // exibe ['This', 'is', 'JavaScript!']
+
+// e existem muitas outras funções integradas para strings em JS
