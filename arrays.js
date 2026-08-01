@@ -26,3 +26,9 @@ names.unshift('Naná'); // ['Naná','Renato','Julia','Miguel']
 
 //remover o primeiro elemento do array
 names.shift(); // ['Renato','Julia','Miguel']
+
+console.log(names.length);
+console.log(numbers.length);
+console.log(names.indexOf('Julia'));
+names.push('Nino');
+console.log(names.join('-'));
