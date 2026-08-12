@@ -15,7 +15,7 @@ lista.appendChild(item1);
 let item2 = document.createElement('li');   //<li></li>
 item2.innerHTML = "Novo item da lista";
 item2.classList.add('text-green-500');
-lista.insertBefore(item2, lista.firstChild);
+lista.prepend(item2, lista.firstChild);
 
 // vamos adicionar item no meio da lista
 let item3 = document.createElement('li');   //<li></li>
