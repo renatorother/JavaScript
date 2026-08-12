@@ -22,7 +22,7 @@ document.querySelector("#div4").addEventListener('mouseout', function () {
 // contextmenu
 document.querySelector("#div4").addEventListener('contextmenu', function (event) {
   event.preventDefault();
-  alert('Menu de contexto desativado!');
+  //alert('Menu de contexto desativado!');
 });
 
 // wheel
