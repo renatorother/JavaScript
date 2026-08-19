@@ -31,10 +31,10 @@ const select = document.querySelector("#select");
 // já vimos que os inputs de texto têm eventos de teclas. Mas existem outros.
 // quando o input recebe o foco, o evento focus é acionado. 
 // E quando o input perde o foco, o evento blur é acionado.
-textName.addEventListener('focus', ()=>{
+textName.addEventListener('focus', () => {
     console.log('textName recebeu o foco');
 });
-textName.addEventListener('blur', ()=>{
+textName.addEventListener('blur', () => {
     console.log('textName perdeu o foco');
 });
 
@@ -47,7 +47,7 @@ textName.addEventListener('input', () => {
 // quando o input de checkbox é alterado, o evento change é acionado.
 // o evento change é acionado quando o input perde o foco, ou seja, 
 // quando o input é alterado e depois perde o foco.
-checkUm.addEventListener('change', ()=>{
+checkUm.addEventListener('change', () => {
     console.log('Checkbox 1 foi alterada ' + checkUm.checked);
 });
 
@@ -73,7 +73,7 @@ radioButtons.forEach((radio) => {
 });
 
 // -------------------------------------------
-select.addEventListener('change', ()=>{
+select.addEventListener('change', () => {
     console.log('Select alterado: ' + select.value);
 });
 
@@ -86,7 +86,7 @@ select.addEventListener('change', ()=>{
 // de enviar.
 
 const form = document.querySelector("#form1");
-form.addEventListener('submit', (event) => {    
+form.addEventListener('submit', (event) => {
     event.preventDefault();
     console.log('Formulário pront!');
 });

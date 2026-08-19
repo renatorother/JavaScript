@@ -11,13 +11,13 @@ const checkboxes = document.querySelectorAll('input[name^="check_hobby_"]');
 // adicionar o evento que permite mostrar ou esconder os hobbies
 radios.forEach((radio) => {
     radio.addEventListener('change', () => {
-        if(radio.value === 'sim'){
+        if (radio.value === 'sim') {
             document.querySelector("#checkboxes").classList.remove('hidden');
         } else {
             document.querySelector("#checkboxes").classList.add('hidden');
 
             // "des-checkar" todas as checkboxes
-            checkboxes.forEach(checkbox => checkbox.checked = false );
+            checkboxes.forEach(checkbox => checkbox.checked = false);
         }
     });
 });
@@ -28,14 +28,14 @@ document.querySelector("#form1").addEventListener('submit', (event) => {
     event.preventDefault();
 
     // validar o nome
-    if(textName.value === ''){
+    if (textName.value === '') {
         alert('Por favor preencha o seu nome');
         textName.focus();
         return;
     }
 
     // validar o email
-    if(textEmail.value === ''){
+    if (textEmail.value === '') {
         alert('Por favor preencha o seu email');
         textEmail.focus();
         return;
