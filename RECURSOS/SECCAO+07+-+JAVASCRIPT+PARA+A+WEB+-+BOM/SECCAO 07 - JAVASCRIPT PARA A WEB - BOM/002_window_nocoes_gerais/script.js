@@ -18,7 +18,6 @@ Neste e nos próximos vídeos, vamos explorar as principais propriedades e méto
 console.log(`Largura em px: ${window.innerWidth}`); // largura da janela
 console.log(`Altura em px: ${window.innerHeight}`); // altura da janela
 // neste caso só vamos conseguir ver o resultado depois de redimensionar a janela e recarregar a página
-
 // para obter estes dados em tempo real, podemos usar o evento resize
 window.addEventListener('resize', () => {
     console.clear(); // limpa o console

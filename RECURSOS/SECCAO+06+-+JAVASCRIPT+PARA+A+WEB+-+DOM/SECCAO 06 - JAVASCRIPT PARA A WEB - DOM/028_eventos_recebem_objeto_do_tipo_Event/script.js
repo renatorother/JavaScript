@@ -9,7 +9,7 @@ const bnt1 = document.querySelector('#btn1');
 const bnt2 = document.querySelector('#btn2');
 const bnt3 = document.querySelector('#btn3');
 
-bnt1.addEventListener('click', (event)=>{
+bnt1.addEventListener('click', (event) => {
     console.log(event);
 });
 
