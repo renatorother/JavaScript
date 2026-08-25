@@ -26,7 +26,7 @@ window.addEventListener('resize', () => {
     info.innerHTML = getDimentions();
 });
 
-function getDimentions(){
+function getDimentions() {
     return `
         <p>innerWidth: ${window.innerWidth}px</p>
         <p>innerHeight: ${window.innerHeight}px</p>
