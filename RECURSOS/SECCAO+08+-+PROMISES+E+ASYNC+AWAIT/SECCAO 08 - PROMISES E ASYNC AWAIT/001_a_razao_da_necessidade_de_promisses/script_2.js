@@ -2,7 +2,7 @@
 Vamos simular um atraso na função getUsers
 */
 
-function getUsers(){
+function getUsers() {
     setTimeout(() => {
         return [
             { name: "Joao", age: 25 },
@@ -17,9 +17,9 @@ A função getUsers agora utiliza a função setTimeout para simular um atraso d
 Vamos assumir que este foi o tempo necessário para obter os utilizadores do servidor. Uma consulta a uma base de dados, por exemplo.
 */
 
-function findUser(name){
+function findUser(name) {
     const users = getUsers();
-    return users.find( user => user.name === name);
+    return users.find(user => user.name === name);
 }
 
 console.log(findUser("Luis"));

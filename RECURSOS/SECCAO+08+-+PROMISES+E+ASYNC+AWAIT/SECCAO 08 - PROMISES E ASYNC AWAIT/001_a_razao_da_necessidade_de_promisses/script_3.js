@@ -2,8 +2,8 @@
 Uma forma de lidar com código assíncrono é usar callbacks.
 */
 
-function getUsers(callback){
-    
+function getUsers(callback) {
+
     setTimeout(() => {
 
         callback(
@@ -17,8 +17,8 @@ function getUsers(callback){
     }, 2000);
 }
 
-function findUser(name, callback){
-    getUsers( users => {
+function findUser(name, callback) {
+    getUsers(users => {
         const user = users.find(user => user.name === name);
         callback(user);
     });

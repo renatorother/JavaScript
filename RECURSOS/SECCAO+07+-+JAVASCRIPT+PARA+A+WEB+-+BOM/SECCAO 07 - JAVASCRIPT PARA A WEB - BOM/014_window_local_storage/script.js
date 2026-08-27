@@ -45,7 +45,7 @@ console.log(valor2); // null
 
 // por conseguinte, podemos primeiro verificar se a chave existe no localStorage
 // -----------------------------------
-if(localStorage.getItem('minha_chave_que_nao_existe') !== null) {
+if (localStorage.getItem('minha_chave_que_nao_existe') !== null) {
     console.log('A chave existe no localStorage');
     console.log(localStorage.getItem('minha_chave_que_nao_existe'));
 } else {
