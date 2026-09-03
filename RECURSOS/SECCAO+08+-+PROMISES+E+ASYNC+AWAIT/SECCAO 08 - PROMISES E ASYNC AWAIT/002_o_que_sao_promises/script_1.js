@@ -1,5 +1,6 @@
 /* 
-Por definição, uma promessa (promise) é um objeto que encapsula o resultado de uma operação assíncrona.
+Por definição, uma promessa (promise) é um objeto que encapsula o resultado
+de uma operação assíncrona.
 As promises têm três estados: pendente, cumprida e rejeitada.
 
 - Pendente: O estado inicial de uma promessa. Indica que a operação assíncrona ainda não foi concluída.

@@ -9,21 +9,21 @@ O método .then() aceita dois argumentos:
 Vamos ver um exemplo:
 */
 
-function getUsers(){
+function getUsers() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(
                 [
-                    {name: "Joao", age: 25},
-                    {name: "Luis", age: 35},
-                    {name: "Carlos", age: 45},
+                    { name: "Joao", age: 25 },
+                    { name: "Luis", age: 35 },
+                    { name: "Carlos", age: 45 },
                 ]
             );
         }, 3000);
     });
 }
 
-function onFulfilled(users){
+function onFulfilled(users) {
     console.log('Utilizadores: ', users);
 }
 

@@ -25,23 +25,23 @@ btnBuscarCategorias.addEventListener('click', () => {
     fetchRequest(baseURL + "categories");
 });
 
-function fetchRequest(url){
+function fetchRequest(url) {
     console.log(url);
 
     fetch(url)
         .then((response) => {
-            if(!response.ok){
+            if (!response.ok) {
                 throw new Error('Aconteu um erro');
             }
             return response.json()
         })
         .then((data) => {
 
-            if('value' in data){
+            if ('value' in data) {
                 document.querySelector("#resultado").innerHTML = data.value; // Se for uma piada
             }
 
-            if(Array.isArray(data)){
+            if (Array.isArray(data)) {
                 document.querySelector("#resultado").innerHTML = data.join(" | "); // Se for uma lista de categorias
             }
         })

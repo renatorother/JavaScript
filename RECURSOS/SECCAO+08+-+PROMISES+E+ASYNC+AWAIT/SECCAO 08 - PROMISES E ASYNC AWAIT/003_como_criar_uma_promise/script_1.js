@@ -7,7 +7,7 @@ let promise = new Promise((resolve, reject) => {
     // operação que demora algum tempo
 
     // retorna o estado
-    if(success) {
+    if (success) {
         resolve(value);
     } else {
         reject(error);

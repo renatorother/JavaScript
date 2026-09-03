@@ -27,4 +27,4 @@ async function asyncCall(){
 asyncCall();
 console.log('fim');
 
-// parece não ser grande coisa, mas é uma grande vantagem quando tens de encadear múltiplas promises
+// parece não ser grande coisa, mas é uma grande   vantagem quando tens de encadear múltiplas promises

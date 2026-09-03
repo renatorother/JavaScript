@@ -8,7 +8,7 @@ function getUsers() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
 
-            if(success){
+            if (success) {
                 // sucesso
                 resolve([
                     { name: 'Joao', age: 25 },

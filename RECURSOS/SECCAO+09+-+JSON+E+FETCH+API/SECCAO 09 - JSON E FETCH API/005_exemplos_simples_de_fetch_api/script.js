@@ -13,7 +13,7 @@ https://api.chucknorris.io/jokes/random
 
 document.querySelector("#btn").addEventListener("click", () => {
 
-    fetch("https://api.chucknorris.io/jokes/randomx")
+    fetch("https://api.chucknorris.io/jokes/random")
         .then((response) => {
             if (!response.ok) {
                 throw new Error("Network response was not ok"); // Se a resposta não for ok, lança um erro

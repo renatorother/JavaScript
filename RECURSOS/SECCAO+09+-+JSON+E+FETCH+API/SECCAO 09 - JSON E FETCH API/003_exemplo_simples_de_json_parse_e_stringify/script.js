@@ -14,7 +14,7 @@ Manipular JSON significa duas coisas:
 const json = `{
   "squadName": "Super hero squad",
   "homeTown": "Metro City",
-  "formed": 2016,
+  "formed": 2016, 
   "secretBase": "Super tower",
   "active": true,
   "members": [

@@ -8,7 +8,7 @@ function getUsers() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
 
-            if(success){
+            if (success) {
                 // sucesso
                 resolve([
                     { name: 'Joao', age: 25 },
@@ -26,6 +26,6 @@ function getUsers() {
 
 const prom = getUsers();
 prom.then(
-    (dados) => { console.log(dados)},
-    (erro) => {console.log(erro)}
+    (dados) => { console.log(dados) },
+    (erro) => { console.log(erro) }
 );

@@ -9,8 +9,8 @@ Se o número for menor que 50, a função lança um erro.
 ISTO É APENAS UM EXEMPLO.
 */
 async function getRandomNumber() {
-    const value  = Math.floor(Math.random() * 100) + 1;
-    if(value < 50) {
+    const value = Math.floor(Math.random() * 100) + 1;
+    if (value < 50) {
         throw new Error(`O valor é demasiado baixo (${value})`);
     } else {
         return value;
@@ -22,7 +22,7 @@ async function main() {
     try {
         const value = await getRandomNumber();
         console.log('Valor:', value);
-    } catch(error) {
+    } catch (error) {
         console.log('Erro:', error.message);
     }
 }
